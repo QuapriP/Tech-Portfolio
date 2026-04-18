@@ -15,16 +15,16 @@ Hands-on documentation of Google Workspace admin tasks completed as part of IT a
 Configured a custom domain within Google Workspace, including navigating to the domain management console, signing into the DNS provider, choosing the Gmail activation method via MX record setup, and confirming successful domain verification with DKIM activation.
 
 ### Step 1 - Navigate to Manage Domains
-![Navigate to Manage Domains](screenshots/1 Navigate to Manage Domain.png)
+![Navigate to Manage Domains](screenshots/1%20Navigate%20to%20Manage%20Domain.png)
 
 ### Step 2 - Sign into DNS console
-![Sign into DNS Console](screenshots/2 Sign into DNS Console.png)
+![Sign into DNS Console](screenshots/2%20Sign%20into%20DNS%20Console.png)
 
 ### Step 3 - Choose method to activate Gmail
-![Choose method to activate Gmail](screenshots/3 Chose method to activate Gmail.png)
+![Choose method to activate Gmail](screenshots/3%20Chose%20method%20to%20activate%20Gmail.png)
 
 ### Step 4 - Domain setup success
-![Domain setup success](screenshots/4 Domain setup success.png)
+![Domain setup success](screenshots/4%20Domain%20setup%20success.png)
 
 ---
 
@@ -33,22 +33,22 @@ Configured a custom domain within Google Workspace, including navigating to the 
 Configured split delivery to route inbound email for inactive and unrecognized accounts to a legacy mail platform, while active Google Workspace users continue receiving mail normally. This involved setting up a Gmail host, creating a named mail route pointing to the legacy server with TLS enforced, opening Gmail routing settings, and configuring the inbound routing rule with the appropriate account type targeting and route assignment.
 
 ### Step 1a - Open Gmail host settings
-![Open Gmail Host Settings](screenshots/1a Open Gmail Host Settings.png)
+![Open Gmail Host Settings](screenshots/1a%20Open%20Gmail%20Host%20Settings.png)
 
 ### Step 2a - Add new mail route
-![Add new Mail route](screenshots/2a Add new Mail route.png)
+![Add new Mail route](screenshots/2a%20Add%20new%20Mail%20route.png)
 
 ### Step 3a - Set up legacy host route and save
-![Setup Legacy Host route and save](screenshots/3a Setup Legacy Host route and save.png)
+![Setup Legacy Host route and save](screenshots/3a%20Setup%20Legacy%20Host%20route%20and%20save.png)
 
 ### Step 4a - Open Gmail routing settings
-![Open Gmail routing settings](screenshots/4a Open Gmail rounting settings.png)
+![Open Gmail routing settings](screenshots/4a%20Open%20Gmail%20rounting%20settings.png)
 
 ### Step 5a - Configure inbound actions
-![Configure inbound actions](screenshots/5a Configure-inbound-actions.png)
+![Configure inbound actions](screenshots/5a%20Configure-inbound-actions.png)
 
 ### Step 6a - Choose route and save
-![Choose route and save](screenshots/6a Choose route and save.png)
+![Choose route and save](screenshots/6a%20Choose%20route%20and%20save.png)
 
 ---
 
@@ -57,16 +57,16 @@ Configured split delivery to route inbound email for inactive and unrecognized a
 Configured dual delivery to send a copy of inbound messages to both Google Workspace and a secondary recipient destination simultaneously. This involved modifying the inbound routing rule to add an additional delivery target, selecting the Advanced configuration mode, and enabling the "Also deliver to" option with the legacy mail platform set as the change route destination, with spam suppression and bounce suppression applied.
 
 ### Step 1b - Configure inbound modify
-![Configure inbound modify](screenshots/1b Configure-inbound-modify.png)
+![Configure inbound modify](screenshots/1b%20Configure-inbound-modify.png)
 
 ### Step 2b - Also deliver - add recipient
-![Also deliver - add recipient](screenshots/2b Also deliver - add recipient.png)
+![Also deliver - add recipient](screenshots/2b%20Also%20deliver%20-%20add%20recipient.png)
 
 ### Step 3b - Choose Advanced from the drop down
-![Choose Advanced from the drop down](screenshots/3b Choose Advanced from the drop down.png)
+![Choose Advanced from the drop down](screenshots/3b%20Choose%20Advanced%20from%20the%20drop%20down.png)
 
 ### Step 4b - Change route to legacy and save
-![Change route - legacy - save](screenshots/4b Change route- legacy- save.png)
+![Change route - legacy - save](screenshots/4b%20Change%20route-%20legacy-%20save.png)
 
 ---
 
